@@ -4,11 +4,12 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemailer": "^6.9.16",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index",
-    "build": "echo 'No build script required for this Node.js application'"
+    "build": "vite build"
   }
 }
